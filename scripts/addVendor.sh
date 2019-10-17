@@ -13,9 +13,8 @@ brotli --decompress system.new.dat.br --output=system.new.dat
 wget https://raw.githubusercontent.com/xpirt/sdat2img/master/sdat2img.py
 python sdat2img.py system.transfer.list system.new.dat system.img
 mkdir system && sudo mount system.img system/
-rm -rf $currentPath/crDroid/vendor/samsung/*
-cd $currentPath/crDroid/device/samsung/$DEVICE && ./extract-files.sh $currentPath/system_dump/
-cd $currentPath/crDroid/device/samsung/universal7880-common && ./extract-files.sh $currentPath/system_dump/
+rm -rf $currentPath/vendor/samsung/*
+cd $currentPath/device/samsung/$DEVICE && ./extract-files.sh $currentPath/system_dump/
+cd $currentPath/device/samsung/universal7880-common && ./extract-files.sh $currentPath/system_dump/
 sudo umount $currentPath/system_dump/system
 rm -rf $currentPath/system_dump
-
