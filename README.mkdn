@@ -3,6 +3,9 @@
 [logo]:https://crdroid.net/img/logo.png "crDroid Android"
 Further details available on: https://wiki.lineageos.org/devices/a5y17lte/build
 
+### Donate ###
+If you find my work useful, consider making a donation: https://www.paypal.me/giuseppebitonti
+
 ### 1. Installing Repo ###
 
 ```bash
