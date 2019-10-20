@@ -25,8 +25,7 @@ $ chmod a+x ~/bin/repo
 ```bash
 # Create a directory for the source files
 # This can be located anywhere (as long as the fs is case-sensitive)
-$ mkdir crDroid
-$ cd crDroid
+$ mkdir crDroid && cd crDroid
 
 # Install Repo in the created directory
 $ repo init --depth=1 -u git://github.com/goolpone/crDroid-build.git -b 9.0-a5y17lte
